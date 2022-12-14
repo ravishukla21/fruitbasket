@@ -6,439 +6,421 @@
       "author": "typicode"
     }
   ],
-    "products": [{
+  "products": [
+    {
       "image_url": "https://bit.ly/3uHGEnN",
       "brand": "Anouk",
       "para": "Women Pink Self Design Kurta with Trousers & Dupatta",
       "price": 791,
       "offer": "76",
-      "id":"1",
-      "category":"Women",
-      "flag":true
-     
-  },
-  {
+      "id": "1",
+      "category": "Women",
+      "flag": true
+    },
+    {
       "image_url": "https://bit.ly/3uLGTyi",
       "brand": "Anouk",
       "para": "Women yellow Self Design Kurta with Trousers & Dupatta",
       "price": 758,
       "offer": "65",
-      "id":"2",
-      "category":"Women",
-      "flag":true
-     
-  },
-  {
+      "id": "2",
+      "category": "Women",
+      "flag": true
+    },
+    {
       "image_url": "https://bit.ly/3Dldqit",
       "brand": "Anouk",
       "para": "Green Ethnic Motifs Pure Cotton Printed Fit and Flare Dress",
       "price": 749,
       "offer": "65",
-      "id":"3",
-      "category":"Women",
-      "flag":true
-    
-  },
-  {
+      "id": "3",
+      "category": "Women",
+      "flag": true
+    },
+    {
       "image_url": "https://bit.ly/3iNMWwx",
       "brand": "Chevron",
       "para": "Black & Grey Chevron Geometric Printed Wrap Dress",
-      "price": 1199, 
+      "price": 1199,
       "offer": "65",
-      "id":"4",
-      "category":"Women",
-      "flag":true
-      
-  },
-  {
+      "id": "4",
+      "category": "Women",
+      "flag": true
+    },
+    {
       "image_url": "https://bit.ly/3IQuE8v",
       "brand": "Anouk",
       "para": "Women Olive Green Ethnic Motifs Yoke Design Kurta with Palazzos & With Dupatta",
       "price": 879,
       "offer": "25",
-      "id":"5",
-      "category":"Women",
-      "flag":true
-    
-  },
-  {
+      "id": "5",
+      "category": "Women",
+      "flag": true
+    },
+    {
       "image_url": "https://bit.ly/3IRLbJa",
       "brand": "MFB",
       "para": "Women Maroon Analogue Watch MFB-PN-SNT-C30-1",
       "price": 674,
       "offer": "10",
-      "id":"6",
-      "category":"Women",
-      "flag":true
-      
-  },
-  {
+      "id": "6",
+      "category": "Women",
+      "flag": true
+    },
+    {
       "image_url": "https://bit.ly/3wYoUqM",
       "brand": "Anouk",
       "para": "Women Black Pure Cotton Ethnic Motifs Printed Kurta with Palazzos & Dupatta",
       "price": 1035,
       "offer": "30",
-      "id":"7",
-      "category":"Women",
-      "flag":true
-     
-  },
-  {
+      "id": "7",
+      "category": "Women",
+      "flag": true
+    },
+    {
       "image_url": "https://bit.ly/3wXtNAx",
       "brand": "Nayo",
       "para": "Women Red Floral Printed Kurta With Trouser & Dupatta",
-      "price": 1479,    
+      "price": 1479,
       "offer": "13",
-      "id":"8",
-      "category":"Women",
-      "flag":true
-      
-  },
-  {
+      "id": "8",
+      "category": "Women",
+      "flag": true
+    },
+    {
       "image_url": "https://bit.ly/37aGnRW",
       "brand": "Yash gallery",
       "para": "Women Blue & White Printed A-Line Kurta",
-      "price": 805,     
+      "price": 805,
       "offer": "45",
-      "id":"9",
-      "category":"Women",
-      "flag":true
-    
-  },
-  {
+      "id": "9",
+      "category": "Women",
+      "flag": true
+    },
+    {
       "image_url": "https://bit.ly/3wUyQli",
       "brand": "Juniper",
       "para": "Women Charming Maroon Ethnic Motifs Bling It On Dress",
-      "price": 489,    
+      "price": 489,
       "offer": "35",
-      "id":"10",
-      "category":"Women",
-      "flag":true
-      
-  },
-  {
+      "id": "10",
+      "category": "Women",
+      "flag": true
+    },
+    {
       "image_url": "https://bit.ly/3uMmnxi",
       "brand": "Sngria",
       "para": "Black& Mustard Yellow Pure Cotton Ethnic Motifs Printed A-Line Dress",
-      "price": 799,  
+      "price": 799,
       "offer": "20",
-      "id":"11",
-      "category":"Women",
-      "flag":true
-     
-  },
-  {
+      "id": "11",
+      "category": "Women",
+      "flag": true
+    },
+    {
       "image_url": "https://bit.ly/3IZknGX",
       "brand": "Juniper",
       "para": "Women Black & Gold-Toned Printed Flared Palazzos",
-      "price": 883,     
+      "price": 883,
       "offer": "43",
-      "id":"12",
-      "category":"Women",
-      "flag":true
-     
-  },
-  {
+      "id": "12",
+      "category": "Women",
+      "flag": true
+    },
+    {
       "image_url": "https://bit.ly/35xpQr3",
       "brand": "Juniper",
       "para": "Women Lime Green & White Striped Flared Palazzos",
       "price": 594,
-    
       "offer": "50",
-      "id":"13",
-      "category":"Women",
-      "flag":true
-     
-  },
-  {
+      "id": "13",
+      "category": "Women",
+      "flag": true
+    },
+    {
       "image_url": "https://bit.ly/3iUMb4X",
       "brand": "Juniper",
       "para": "Women Off-White & Gold-Coloured Printed Flared Palazzos",
-      "price": 499,     
+      "price": 499,
       "offer": "65",
-      "id":"14",
-      "category":"Women",
-      "flag":true
-     
-  },
-  {
+      "id": "14",
+      "category": "Women",
+      "flag": true
+    },
+    {
       "image_url": "https://bit.ly/36I0Myd",
       "brand": "Juniper",
       "para": "Women White Chikankari Embroidered Flared Palazzos",
-      "price": 997,     
+      "price": 997,
       "offer": "70",
-      "id":"15",
-      "category":"Women",
-      "flag":true
-     
-  },
-  {
+      "id": "15",
+      "category": "Women",
+      "flag": true
+    },
+    {
       "image_url": "https://bit.ly/3DwTnO0",
       "brand": "Arrabi",
       "para": "Women Blue Ethnic Motifs Embroidered Knitted Cropped Ethnic Palazzos",
-      "price": 554,      
+      "price": 554,
       "offer": "14",
-      "id":"16",
-      "category":"Women",
-      "flag":true
-      
-  },
-  {
+      "id": "16",
+      "category": "Women",
+      "flag": true
+    },
+    {
       "image_url": "https://bit.ly/3v7U4K7",
       "brand": "Juniper",
       "para": "Maroon Embroidered Semi-Stitched Lehenga & Unstitched Blouse with Dupatta",
-      "price": 3999,     
+      "price": 3999,
       "offer": "36",
-      "id":"17",
-      "category":"Women",
-      "flag":true
-     
-  },
-  {
+      "id": "17",
+      "category": "Women",
+      "flag": true
+    },
+    {
       "image_url": "https://bit.ly/3iXV6Cw",
       "brand": "Juniper",
       "para": "Beige & Golden Embellished Sequinned Semi-Stitched Lehenga Set",
-      "price": 5100,      
+      "price": 5100,
       "offer": "60",
-      "id":"18",
-      "category":"Women",
-      "flag":true
-      
-  },
-  {
+      "id": "18",
+      "category": "Women",
+      "flag": true
+    },
+    {
       "image_url": "https://bit.ly/3DvsXfI",
       "brand": "Chevron",
       "para": "Black Embellished Sequinned Semi-Stitched Lehenga & Unstitched Blouse With Dupatta",
-      "price": 2457,     
+      "price": 2457,
       "offer": "36",
-      "id":"19",
-      "category":"Women",
-      "flag":true
-     
-  },
-  {
+      "id": "19",
+      "category": "Women",
+      "flag": true
+    },
+    {
       "image_url": "https://bit.ly/3wYy1Im",
       "brand": "Chevron",
       "para": "Pink Embellished Sequinned Semi-Stitched Lehenga & Unstitched Blouse With Dupatta",
-      "price": 2319,     
+      "price": 2319,
       "offer": "70",
-      "id":"20",
-      "category":"Women",
-      "flag":true
-      
-  },
-  {
-    "image_url": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/10331501/2020/3/18/d4d07c60-88d9-43d9-aa78-9cc7712816321584508934272-US-Polo-Assn-Men-White-Colourblocked-Sneakers-84015845089331-1.jpg",
-    "brand": "U.S. Polo Assn.",
-    "para": "Men Colourblocked Sneakers",    
-    "price": 1799,  
-    "offer": "40 ",
-    "id":"21",
-    "category":"men",
-    "flag":true
-   
-  
-  }, {
-    "image_url": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/13031344/2021/2/15/edb298bb-2c55-4b17-be70-b99fa7da98af1613389238510-US-Polo-Assn-Men-Navy-Blue-Printed-Sliders-7711613389237151-1.jpg ",
-    "brand": "U.S. Polo Assn.",
-    "para": "Men Printed Sliders",  
-    "price": 674,  
-    "offer": "55 ",
-    "id":"22",
-    "category":"men",
-    "flag":true
-   
-  }, {
-    "image_url": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/13640716/2021/5/24/48e9e3bc-8fb7-4af5-97fa-46927f68fbd81621838454680JeansRoadsterMenJeansRoadsterMenTrackPantsHRXbyHrithikRoshan1.jpg ",
-    "brand": "U.S. Polo Assn.",
-    "para": "Printed Polo Collar Pure Cotton T-Shirt",   
-    "price": 1259,   
-    "offer": "40",
-    "id":"23",
-    "category":"men",
-    "flag":true
-  
-  }, {
-    "image_url": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/10339033/2019/8/6/df9a712b-a5fc-4a65-870a-0854fb50ea221565093150139-US-Polo-Assn-Men-Casual-Shoes-7391565093148433-1.jpg ",
-    "brand": "U.S. Polo Assn.",
-    "para": "Men Sneakers",
-    "price":  1949,   
-    "offer": "35 ",
-    "id":"24",
-    "category":"men",
-    "flag":true
-   
-  }, {
-    "image_url": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/10339001/2020/2/28/5d620291-a732-4d17-9f52-baa24bb7a81f1582871965483-US-Polo-Assn-Men-Flip-Flops-2741582871964051-1.jpg ",
-    "brand": "U.S. Polo Assn.",
-    "para": "Men Printed Thong Flip-Flops ",
-    "price":  599 ,    
-    "offer": "40 ",
-    "id":"25",
-    "category":"men",
-    "flag":true
-  
-  }, {
-    "image_url": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/11391306/2020/2/12/10b9eea6-35be-4b7d-8c39-826d4d3500c11581485549564-US-Polo-Assn-Men-Casual-Shoes-4671581485548936-1.jpg ",
-    "brand": "Roadster",
-    "para": "Men Colourblocked Sneakers ",  
-    "price": 1649,  
-    "offer": "45 ",
-    "id":"26",
-    "category":"men",
-    "flag":true
-  
-  }, {
-    "image_url": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/14406190/2021/7/13/c8352e58-003d-464f-a6ce-0428e35870461626156229629-U-S-Polo-Assn-Men-Navy-Blue-PU-Sneakers-4661626156229266-1.jpg ",
-    "brand": "Roadster",
-    "para": "Men Colourblocked Sneakers ",  
-    "price": 1799,   
-    "offer": 40 ,
-    "id":"27",
-    "category":"men",
-    "flag":true
-    
-  }, {
-    "image_url": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/14406190/2021/7/13/c8352e58-003d-464f-a6ce-0428e35870461626156229629-U-S-Polo-Assn-Men-Navy-Blue-PU-Sneakers-4661626156229266-1.jpg ",
-    "brand": "Roadster",
-    "para": "Men Colourblocked Sneakers ",   
-    "price": 1799,  
-    "offer": "20 ",
-    "id":"28",
-    "category":"men",
-    "flag":true
-   
-  }, {
-    "image_url": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/14367616/2021/8/12/07269c5b-cd27-4716-9709-583e7eac513d1628768262239-US-Polo-Assn-Men-White-LEBRON-20-Walking-Shoes-3021628768261-1.jpg ",
-    "brand": "Roadster",
-    "para": "Men LEBRON 2.0 Walking Shoes ",   
-    "price": 1999,    
-    "offer": "50 ",
-    "id":"29",
-    "category":"men",
-    "flag":true
-   
-  }, {
-    "image_url": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/13031362/2021/1/19/8814b6d0-5393-4a14-ae1d-ebea39114cde1611035283580-US-Polo-Assn-Men-Casual-Shoes-1901611035282050-1.jpg ",
-    "brand": "KLOTTHE",
-    "para": "Men AARON 2.0 Driving Shoes ",
-    "price": 1799,   
-   "offer": "40",
-    "id":"30",
-    "category":"men",
-    "flag":true
-    
-  }, {
-    "image_url": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/15994922/2021/11/26/41a5e5b8-310d-4c47-b08b-7f30649c97571637933130073-US-Polo-Assn-Men-Casual-Shoes-8321637933129644-1.jpg ",
-    "brand": "KLOTTHE",
-    "para": "Men Solid CARLIN Sneakers ",  
-    "price": 1559,    
-    "offer": "40 ",
-    "id":"31",
-    "category":"men",
-    "flag":true
-    
-  
-  }, {
-    "image_url": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/15839406/2021/11/12/54e4c724-80c7-45f9-aa32-167ffa9623741636705114683-US-Polo-Assn-Men-Casual-Shoes-2501636705113615-1.jpg ",
-    "brand": "Mast & Harbour",
-    "para": "Men Solid Slip-On Sneakers ",    
-    "price": 1559,   
-    "offer": "35 ",
-    "id":"32",
-    "category":"men",
-    "flag":true
-    
-   
-  }, {
-    "image_url": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/12396178/2020/10/27/3ab21444-5874-4516-b37f-6d109ebe4fcc1603771281600-US-Polo-Assn-Men-Flip-Flops-801603771280394-1.jpg ",
-    "brand": "Mast & Harbour",
-    "para": "Men Brand Logo Print Sliders ",   
-    "price": 824,   
-    "offer": "45 ",
-    "id":"33",
-    "category":"men",
-    "flag":true
-    
-  
-  }, {
-    "image_url": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/14367572/2021/7/13/5530fba3-1eb1-4046-a953-a99472e6289e1626182682397-US-Polo-Assn-Men-Sports-Shoes-1541626182681917-1.jpg ",
-    "brand": "Mast & Harbour",
-    "para": "Men LEBRON 2.0 Walking Shoes ",  
-    "price": 2399,  
-    "offer": "40 ",
-    "id":"34",
-    "category":"men",
-    "flag":true
-    
-   
-  }, {
-    "image_url": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/11581054/2020/3/9/97289e69-d7a4-43f8-90a6-e5ff6eb3ba1f1583733923260FormalShoesArrowMenFormalShoesArrowMenCasualShoesArrowMenCas1.jpg ",
-    "brand": "PUMA",
-    "para": "Men Slip-On Sneakers ",   
-    "price": 1999,  
-    "offer": "50 ",
-    "id":"35",
-    "category":"men",
-    "flag":true
-    
-   
-  }, {
-    "image_url": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/11076358/2019/12/12/34845311-eff5-448a-b3ff-b35b9bd1261a1576132559621-US-Polo-Assn-Men-Navy-Blue-Printed-Thong-Flip-Flops-48115761-1.jpg ",
-    "brand": "PUMA",
-    "para": "Men Printed Thong Flip-Flops ",   
-    "price": 999,  
-    "offer": "(50% OFF) ",
-    "id":"36",
-    "category":"men",
-    "flag":true
-    
-  
-  }, {
-    "image_url": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/11359600/2020/6/22/97e8ab74-25ff-4daf-bffb-b0a1ec708c191592819068194ShirtsUSPoloAssnMenShirtsUSPoloAssnMenShirtsUSPoloAssnMenShi1.jpg ",
-    "brand": "PUMA",
-    "para": "Colourblocked Polo Collar Pure Cotton ",   
-    "price": 1139,  
-    "offer": "40 ",
-    "id":"37",
-    "category":"men",
-    "flag":true
-    
-   
-  }, {
-    "image_url": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/1924785/2018/5/18/be8485c7-0944-4f38-8f5f-78b6e325fd201526634385328-US-Polo-Assn-Men-Khaki-Slim-Fit-Solid-Chinos-7181526634383854-1.jpg ",
-    "brand": "WROGN",
-    "para": "Men Slim Fit Chinos ",   
-    "price": 1049,    
-    "offer": "50",
-    "id":"38",
-    "category":"men",
-    "flag":true
-    
-   
-  }, {
-    "image_url": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/15028790/2021/8/13/584feeb0-e6f2-4b12-8549-7a0566f382651628856325445-US-Polo-Assn-Men-Sports-Shoes-4781628856324962-1.jpg ",
-    "brand": "WROGN",
-    "para": "Men BRONEL 2.0 Walking Shoe ",    
-    "price": 1799,   
-    "offer": "55",
-    "id":"39",
-    "category":"men",
-    "flag":true
-    
-   
-  }, {
-    "image_url": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/11359590/2020/2/26/68da9e40-e8b1-4710-8282-802c2c6550c11582709189210-US-Polo-Assn-Men-Tshirts-9481582709187568-1.jpg ",
-    "brand": "HRX by Hrithik Roshan",
-    "para": "Stiped Polo Collar Pur Cotton T-Shirt ",   
-    "price": 949,    
-    "offer": "50",
-    "id":"40",
-    "category":"men",
-    "flag":true
-    
-    
-  }
+      "id": "20",
+      "category": "Women",
+      "flag": true
+    },
+    {
+      "image_url": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/10331501/2020/3/18/d4d07c60-88d9-43d9-aa78-9cc7712816321584508934272-US-Polo-Assn-Men-White-Colourblocked-Sneakers-84015845089331-1.jpg",
+      "brand": "U.S. Polo Assn.",
+      "para": "Men Colourblocked Sneakers",
+      "price": 1799,
+      "offer": "40 ",
+      "id": "21",
+      "category": "men",
+      "flag": true
+    },
+    {
+      "image_url": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/13031344/2021/2/15/edb298bb-2c55-4b17-be70-b99fa7da98af1613389238510-US-Polo-Assn-Men-Navy-Blue-Printed-Sliders-7711613389237151-1.jpg ",
+      "brand": "U.S. Polo Assn.",
+      "para": "Men Printed Sliders",
+      "price": 674,
+      "offer": "55 ",
+      "id": "22",
+      "category": "men",
+      "flag": true
+    },
+    {
+      "image_url": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/13640716/2021/5/24/48e9e3bc-8fb7-4af5-97fa-46927f68fbd81621838454680JeansRoadsterMenJeansRoadsterMenTrackPantsHRXbyHrithikRoshan1.jpg ",
+      "brand": "U.S. Polo Assn.",
+      "para": "Printed Polo Collar Pure Cotton T-Shirt",
+      "price": 1259,
+      "offer": "40",
+      "id": "23",
+      "category": "men",
+      "flag": true
+    },
+    {
+      "image_url": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/10339033/2019/8/6/df9a712b-a5fc-4a65-870a-0854fb50ea221565093150139-US-Polo-Assn-Men-Casual-Shoes-7391565093148433-1.jpg ",
+      "brand": "U.S. Polo Assn.",
+      "para": "Men Sneakers",
+      "price": 1949,
+      "offer": "35 ",
+      "id": "24",
+      "category": "men",
+      "flag": true
+    },
+    {
+      "image_url": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/10339001/2020/2/28/5d620291-a732-4d17-9f52-baa24bb7a81f1582871965483-US-Polo-Assn-Men-Flip-Flops-2741582871964051-1.jpg ",
+      "brand": "U.S. Polo Assn.",
+      "para": "Men Printed Thong Flip-Flops ",
+      "price": 599,
+      "offer": "40 ",
+      "id": "25",
+      "category": "men",
+      "flag": true
+    },
+    {
+      "image_url": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/11391306/2020/2/12/10b9eea6-35be-4b7d-8c39-826d4d3500c11581485549564-US-Polo-Assn-Men-Casual-Shoes-4671581485548936-1.jpg ",
+      "brand": "Roadster",
+      "para": "Men Colourblocked Sneakers ",
+      "price": 1649,
+      "offer": "45 ",
+      "id": "26",
+      "category": "men",
+      "flag": true
+    },
+    {
+      "image_url": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/14406190/2021/7/13/c8352e58-003d-464f-a6ce-0428e35870461626156229629-U-S-Polo-Assn-Men-Navy-Blue-PU-Sneakers-4661626156229266-1.jpg ",
+      "brand": "Roadster",
+      "para": "Men Colourblocked Sneakers ",
+      "price": 1799,
+      "offer": 40,
+      "id": "27",
+      "category": "men",
+      "flag": true
+    },
+    {
+      "image_url": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/14406190/2021/7/13/c8352e58-003d-464f-a6ce-0428e35870461626156229629-U-S-Polo-Assn-Men-Navy-Blue-PU-Sneakers-4661626156229266-1.jpg ",
+      "brand": "Roadster",
+      "para": "Men Colourblocked Sneakers ",
+      "price": 1799,
+      "offer": "20 ",
+      "id": "28",
+      "category": "men",
+      "flag": true
+    },
+    {
+      "image_url": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/14367616/2021/8/12/07269c5b-cd27-4716-9709-583e7eac513d1628768262239-US-Polo-Assn-Men-White-LEBRON-20-Walking-Shoes-3021628768261-1.jpg ",
+      "brand": "Roadster",
+      "para": "Men LEBRON 2.0 Walking Shoes ",
+      "price": 1999,
+      "offer": "50 ",
+      "id": "29",
+      "category": "men",
+      "flag": true
+    },
+    {
+      "image_url": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/13031362/2021/1/19/8814b6d0-5393-4a14-ae1d-ebea39114cde1611035283580-US-Polo-Assn-Men-Casual-Shoes-1901611035282050-1.jpg ",
+      "brand": "KLOTTHE",
+      "para": "Men AARON 2.0 Driving Shoes ",
+      "price": 1799,
+      "offer": "40",
+      "id": "30",
+      "category": "men",
+      "flag": true
+    },
+    {
+      "image_url": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/15994922/2021/11/26/41a5e5b8-310d-4c47-b08b-7f30649c97571637933130073-US-Polo-Assn-Men-Casual-Shoes-8321637933129644-1.jpg ",
+      "brand": "KLOTTHE",
+      "para": "Men Solid CARLIN Sneakers ",
+      "price": 1559,
+      "offer": "40 ",
+      "id": "31",
+      "category": "men",
+      "flag": true
+    },
+    {
+      "image_url": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/15839406/2021/11/12/54e4c724-80c7-45f9-aa32-167ffa9623741636705114683-US-Polo-Assn-Men-Casual-Shoes-2501636705113615-1.jpg ",
+      "brand": "Mast & Harbour",
+      "para": "Men Solid Slip-On Sneakers ",
+      "price": 1559,
+      "offer": "35 ",
+      "id": "32",
+      "category": "men",
+      "flag": true
+    },
+    {
+      "image_url": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/12396178/2020/10/27/3ab21444-5874-4516-b37f-6d109ebe4fcc1603771281600-US-Polo-Assn-Men-Flip-Flops-801603771280394-1.jpg ",
+      "brand": "Mast & Harbour",
+      "para": "Men Brand Logo Print Sliders ",
+      "price": 824,
+      "offer": "45 ",
+      "id": "33",
+      "category": "men",
+      "flag": true
+    },
+    {
+      "image_url": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/14367572/2021/7/13/5530fba3-1eb1-4046-a953-a99472e6289e1626182682397-US-Polo-Assn-Men-Sports-Shoes-1541626182681917-1.jpg ",
+      "brand": "Mast & Harbour",
+      "para": "Men LEBRON 2.0 Walking Shoes ",
+      "price": 2399,
+      "offer": "40 ",
+      "id": "34",
+      "category": "men",
+      "flag": true
+    },
+    {
+      "image_url": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/11581054/2020/3/9/97289e69-d7a4-43f8-90a6-e5ff6eb3ba1f1583733923260FormalShoesArrowMenFormalShoesArrowMenCasualShoesArrowMenCas1.jpg ",
+      "brand": "PUMA",
+      "para": "Men Slip-On Sneakers ",
+      "price": 1999,
+      "offer": "50 ",
+      "id": "35",
+      "category": "men",
+      "flag": true
+    },
+    {
+      "image_url": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/11076358/2019/12/12/34845311-eff5-448a-b3ff-b35b9bd1261a1576132559621-US-Polo-Assn-Men-Navy-Blue-Printed-Thong-Flip-Flops-48115761-1.jpg ",
+      "brand": "PUMA",
+      "para": "Men Printed Thong Flip-Flops ",
+      "price": 999,
+      "offer": "(50% OFF) ",
+      "id": "36",
+      "category": "men",
+      "flag": true
+    },
+    {
+      "image_url": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/11359600/2020/6/22/97e8ab74-25ff-4daf-bffb-b0a1ec708c191592819068194ShirtsUSPoloAssnMenShirtsUSPoloAssnMenShirtsUSPoloAssnMenShi1.jpg ",
+      "brand": "PUMA",
+      "para": "Colourblocked Polo Collar Pure Cotton ",
+      "price": 1139,
+      "offer": "40 ",
+      "id": "37",
+      "category": "men",
+      "flag": true
+    },
+    {
+      "image_url": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/1924785/2018/5/18/be8485c7-0944-4f38-8f5f-78b6e325fd201526634385328-US-Polo-Assn-Men-Khaki-Slim-Fit-Solid-Chinos-7181526634383854-1.jpg ",
+      "brand": "WROGN",
+      "para": "Men Slim Fit Chinos ",
+      "price": 1049,
+      "offer": "50",
+      "id": "38",
+      "category": "men",
+      "flag": true
+    },
+    {
+      "image_url": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/15028790/2021/8/13/584feeb0-e6f2-4b12-8549-7a0566f382651628856325445-US-Polo-Assn-Men-Sports-Shoes-4781628856324962-1.jpg ",
+      "brand": "WROGN",
+      "para": "Men BRONEL 2.0 Walking Shoe ",
+      "price": 1799,
+      "offer": "55",
+      "id": "39",
+      "category": "men",
+      "flag": true
+    },
+    {
+      "image_url": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/11359590/2020/2/26/68da9e40-e8b1-4710-8282-802c2c6550c11582709189210-US-Polo-Assn-Men-Tshirts-9481582709187568-1.jpg ",
+      "brand": "HRX by Hrithik Roshan",
+      "para": "Stiped Polo Collar Pur Cotton T-Shirt ",
+      "price": 949,
+      "offer": "50",
+      "id": "40",
+      "category": "men",
+      "flag": true
+    },
+    {
+      "image_url": "https://img.ssensemedia.com/images/b_white,g_center,f_auto,q_auto:best/212278M176008_1/givenchy-black-and-white-varsity-jacket.jpg ",
+      "brand": "Versache",
+      "para": "GIVENCHY Black & White Varsity Jacket ",
+      "price": 1200,
+      "offer": "30",
+      "id": "41",
+      "category": "men",
+      "flag": true
+    }
+  ],"useradmin":[
+    {
+      "username":"bharti",
+      "password":"bharti"
+    }
   ]
-  }
-
+}
