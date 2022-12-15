@@ -1,32 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     admin page
     <form>
-        <input type="text" placeholder="brand">
-        <input type="text" placeholder="image_url">
-        <input type="text" placeholder="price">
-        <input type="text" placeholder="offer">
-        <input type="text" placeholder="id">
-        <input type="text" placeholder="category">
-       <button id="products">products</button>
+        <input id="brand" type="text" placeholder="brand">
+        <input id="image" type="text" placeholder="image_url">
+        <input id="price" type="text" placeholder="price">
+        <input id="offer" type="text" placeholder="offer">
+        <input id="id" type="number" placeholder="id">
+        <input id="category" type="text" placeholder="category">
+        <button id="products">products</button>
     </form>
-</body>
-</html>
 
-<!-- {
-    "image_url": "https://bit.ly/3uHGEnN",
-    "brand": "Anouk",
-    "para": "Women Pink Self Design Kurta with Trousers & Dupatta",
-    "price": 791,
-    "offer": "76",
-    "id": "1",
-    "category": "Women",
-    "flag": true
-  }, -->
+    <!-- <form id="admin_1"> -->
+        <input id="user" type="text" placeholder="username">
+        <input id="pass" type="text" placeholder="password">
+        <button id="admin">admin</button>
+    <!-- </form> -->
+</body>
+<script>
+    admin.addEventListener("click", () => {
+
+        let user = document.getElementById("user").value;
+        let pass = document.getElementById("pass").value;
+        let id="2";
+        obj = {
+            user, pass,id
+
+        }
+        console.log("hello",obj)
+
+        fetch("http://localhost:3000/useradmin", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify(obj)
+        }).then(res => res.json()).then(data => console.log(data))
+
+    })
+
+
+
+</script>
+
+</html>
