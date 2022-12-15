@@ -8,33 +8,105 @@
 </head>
 
 <body>
-    <div class="signup-box">
-        <h1>Sign Up</h1>
-        <h4>It's free and only takes a minute</h4>
-        <form>
-            <label>First Name</label>
-            <input id="firstname" type="text" placeholder="Enter First Name" />
-            <label>Last Name</label>
-            <input id="lastname" type="text" placeholder="Last Name" />
-            <label>Email</label>
-            <input id="email" type="email" placeholder="Email" />
-            <label>Password</label>
-            <input id="password" type="password" placeholder="Password" />
-            <label>Confirm Password</label>
-            <input id="confirmpassword" type="password" placeholder="Confirm Password" />
-            <input onclick="sign()" type="button" value="Submit" />
-            <closeform></closeform>
-        </form>
-        <p>
-            By clicking the Sign Up button,you agree to our <br />
-            <a href="#">Terms and Condition</a> and <a href="#">Policy Privacy</a>
-        </p>
+    <div id="main_body">
+        <div class="admin">
+            <h1>only for developers</h1>
+            <form>
+                <input id="admin_username" type="text" placeholder="type your username">
+                <input id="admin_email" type="text" placeholder="type your email">
+                <input id="admin_password" type="text" placeholder="type your password">
+            </form>
+            <button onclick="admin()">ADMIN LOGIN</button>
+        </div>
+        <div class="signup-box">
+            <h1>Sign Up</h1>
+            <h4>It's free and only takes a minute</h4>
+            <form>
+                <label>First Name</label>
+                <input id="firstname" type="text" placeholder="Enter First Name" />
+                <label>Last Name</label>
+                <input id="lastname" type="text" placeholder="Last Name" />
+                <label>Email</label>
+                <input id="email" type="email" placeholder="Email" />
+                <label>Password</label>
+                <input id="password" type="password" placeholder="Password" />
+                <label>Confirm Password</label>
+                <input id="confirmpassword" type="password" placeholder="Confirm Password" />
+                <input onclick="sign()" type="button" value="Submit" />
+                <closeform></closeform>
+            </form>
+            <p>
+                By clicking the Sign Up button,you agree to our <br />
+                <a href="#">Terms and Condition</a> and <a href="#">Policy Privacy</a>
+            </p>
+            <p class="para-2">
+                Already have an account? <a href="login.html">Login here</a>
+            </p>
+        </div>
+
     </div>
-    <p class="para-2">
-        Already have an account? <a href="login.html">Login here</a>
-    </p>
+
+   
 </body>
 <script>
+    let admin_arr = JSON.parse(localStorage.getItem("admin_details")) || [];
+
+
+    function admin() {
+
+
+
+        let admin_username = document.querySelector("#admin_username").value;
+
+        let admin_email = document.querySelector("#admin_email").value;
+        let admin_password = document.querySelector("#admin_password").value;
+        let admin_obj = {
+            admin_name: admin_username,
+            admin_email: admin_email,
+            admin_pass: admin_password
+        };
+        // admin_arr.push(admin_obj)
+        console.log("adminget", admin_arr);
+
+        countryExist = admin_arr.some(obj1 => obj1.admin_email === admin_obj.admin_email);
+        if (!countryExist) {
+            // admin_arr.push(obj);
+            // addToLocalStorage(admin_arr);
+            alert("you have not access for the admin page please contact admin")
+        } else {
+            //  alert("Account alredy exist please login")
+            window.location.href = "admin.html";
+        }
+        //console.log(admin_arr);
+
+        let my_arr = [{
+            admin_name: "ravi@456",
+            admin_email: "ravi21.434",
+            admin_pass: 1234
+
+        }];
+
+        console.log("hello", my_arr)
+        addToLocalStorage(my_arr)
+
+
+
+        function addToLocalStorage(my_arr) {
+
+
+            localStorage.setItem("admin_details", JSON.stringify(my_arr));
+            //alert(`WELCOME TO FASHION GALLERY ${firstname} Please Login`)
+        }
+
+
+
+
+
+
+        //window.location.href = "admin.html";
+
+    }
+
     let arr = JSON.parse(localStorage.getItem("details")) || []
 
 
@@ -62,29 +134,29 @@
             console.log(arr)
             console.log(arr[0])
 
-           
+
             countryExist = arr.some(obj1 => obj1.email === obj.email);
             if (!countryExist) {
                 arr.push(obj);
                 addToLocalStorage(arr);
-            }else{
+            } else {
                 alert("Account alredy exist please login")
             }
             console.log(arr);
 
             function addToLocalStorage(arr) {
-                
+
                 localStorage.setItem("details", JSON.stringify(arr));
                 alert(`WELCOME TO FASHION GALLERY ${firstname} Please Login`)
             }
 
-           // arr.push(obj)
+            // arr.push(obj)
 
 
 
-           // localStorage.setItem("details", JSON.stringify(arr))
+            // localStorage.setItem("details", JSON.stringify(arr))
 
-           // console.log("hello")
+            // console.log("hello")
 
         }
 
