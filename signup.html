@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="login.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="signup-box">
+        <h1>Sign Up</h1>
+        <h4>It's free and only takes a minute</h4>
+        <form>
+            <label>First Name</label>
+            <input id="firstname" type="text" placeholder="Enter First Name" />
+            <label>Last Name</label>
+            <input id="lastname" type="text" placeholder="Last Name" />
+            <label>Email</label>
+            <input id="email" type="email" placeholder="Email" />
+            <label>Password</label>
+            <input id="password" type="password" placeholder="Password" />
+            <label>Confirm Password</label>
+            <input id="confirmpassword" type="password" placeholder="Confirm Password" />
+            <input onclick="sign()" type="button" value="Submit" />
+            <closeform></closeform>
+        </form>
+        <p>
+            By clicking the Sign Up button,you agree to our <br />
+            <a href="#">Terms and Condition</a> and <a href="#">Policy Privacy</a>
+        </p>
+    </div>
+    <p class="para-2">
+        Already have an account? <a href="login.html">Login here</a>
+    </p>
+</body>
+<script>
+    let arr = JSON.parse(localStorage.getItem("details")) || []
+
+
+
+    function sign() {
+        let firstname = document.querySelector("#firstname").value;
+        let lastname = document.querySelector("#lastname").value;
+        let email = document.querySelector("#email").value;
+        let password = document.querySelector("#password").value;
+        let confirmpassword = document.querySelector("#confirmpassword").value;
+
+        let obj = {
+            firstname, lastname, email, password, confirmpassword
+        }
+        if (password !== confirmpassword) {
+
+            alert("password did not matches")
+
+        } else if (firstname == "" || lastname == "" || email == "" || password == "" || confirmpassword == "") {
+            alert("fields are empty")
+
+
+        }
+        else {
+            console.log(arr)
+            console.log(arr[0])
+
+           
+            countryExist = arr.some(obj1 => obj1.email === obj.email);
+            if (!countryExist) {
+                arr.push(obj);
+                addToLocalStorage(arr);
+            }else{
+                alert("Account alredy exist please login")
+            }
+            console.log(arr);
+
+            function addToLocalStorage(arr) {
+                
+                localStorage.setItem("details", JSON.stringify(arr));
+                alert(`WELCOME TO FASHION GALLERY ${firstname} Please Login`)
+            }
+
+           // arr.push(obj)
+
+
+
+           // localStorage.setItem("details", JSON.stringify(arr))
+
+           // console.log("hello")
+
+        }
+
+
+
+
+
+
+    }
+
+</script>
+
+</html>

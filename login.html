@@ -1,0 +1,65 @@
+Login HTML
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    
+    <div class="login-box">
+        <h1>Login</h1>
+        <form>
+            <label>Email</label>
+            <input id="email" type="email" placeholder="Enter Email-id" />
+            <label>Password</label>
+            <input id="password" type="password" placeholder="Enter your password" />
+            <input onclick="myfun()" type="button" value="Submit" />
+            <closeform></closeform>
+        </form>
+    </div>
+    <p class="para-2">
+        Not have an account? <a href="signup.html">Sign Up Here</a>
+    </p>
+</body>
+
+
+<script>
+    let arr = JSON.parse(localStorage.getItem("details")) || [];
+    function myfun() {
+        let email = document.querySelector("#email").value;
+        let password = document.querySelector("#password").value;
+        let obj1 = {
+            email, password
+        }
+        // arr.push(obj1)
+        // console.log(arr)
+        localStorage.setItem("details", JSON.stringify(arr))
+        arr.forEach(ele => {
+            //console.log(ele)
+            if (ele.email == email && ele.password == password) {
+                console.log("good")
+                alert("Welcome")
+
+                window.location.href = "index.html"
+                
+                
+
+
+            }
+            else if (ele.email !== email && ele.password !== password) {
+                alert("no account exist")
+            }
+
+        });
+
+
+
+    }
+
+</script>
+</html>
