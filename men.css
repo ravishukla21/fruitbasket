@@ -1,0 +1,74 @@
+#top{
+      
+    text-align: center;
+   
+}
+#a1{
+    width: 45%;
+    margin-left: 27%;
+    
+}
+#brands{
+    width: 88%;
+    margin-left: 5px;
+
+    padding: 10px 80px 10px 80px ;
+}
+#midtop{
+    margin-left: 45%;
+}
+#mid-mid{
+    margin-left: 45%;
+    margin-top: 90px;
+}
+#mid-bottom{
+    margin-left: 45%;
+    margin-top: 90px;
+}
+#bottom-top{
+    margin-left: 45%;
+    margin-top: 90px;
+}
+#shopmen{
+   width: 150%;
+   margin-left: -50%;
+   justify-content: space-between;
+    margin-top: 30px;
+}
+#txt{
+    width: 110%;
+    display: flex;
+    justify-content:space-around    ;
+    margin-left: -50%;
+}
+#NewToSale{
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+#SpecialOffers{
+width: 50%;
+  display: flex;
+  align-items: center;
+}
+#bottom-bottom{
+    display: flex;
+    margin-left: 10%;
+    margin-top: 80px;
+    
+}
+ #Download{
+    width: 60%;
+} 
+#Install{
+    width: 60%;
+} 
+.button{
+    display: flex;
+   margin-right: 40%;
+   
+}
+#bottom-mid{
+    margin-left: 45%;
+    margin-top: 90px;
+}
