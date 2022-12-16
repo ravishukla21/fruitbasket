@@ -1,0 +1,203 @@
+
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+#admincol{
+    height: 800px;
+    width: 20%;
+    border: 0px solid red;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 5px;
+}
+#admincol p{
+    color: teal;
+    font-size: 20px;
+    font-weight:400 ;
+    margin-top: 0px;
+    margin-left: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#procol{
+    height: fit-content;
+    width: 80%;
+    border: 0px solid blue;
+}
+#adminall{
+    display: flex;
+}
+#topadmin{
+    height: 60px;
+    width: 100%;
+    border: 0px solid rebeccapurple;
+    display: flex;
+   justify-content: space-evenly;
+}
+#topadmin > h3{
+    color: teal;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+#dash{
+    height: 30px;
+    width: 90%;
+    border: 0px solid rebeccapurple;
+    margin: auto;
+    display: flex;
+    margin-bottom: 30px;
+    
+}
+#proclick{
+    height: 30px;
+    width: 90%;
+    border: 0px solid rebeccapurple;
+    margin: auto;
+    display: flex;
+    
+}
+#click{
+    height: 100px;
+    width: 70%;
+    border: 0px solid rebeccapurple;
+    margin-left: 70px;
+    margin-bottom: 30px;
+    display: none;
+}
+#click > p{
+    margin-bottom: -3px;
+    color: gray;
+}#order{
+    height: 30px;
+    width: 90%;
+    border: 0px solid rebeccapurple;
+    margin: auto;
+    display: flex;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+#cust{
+    height: 30px;
+    width: 90%;
+    border: 0px solid rebeccapurple;
+    margin: auto;
+    display: flex;
+    margin-bottom: 30px;
+}
+#stat{
+    height: 30px;
+    width: 90%;
+    border: 0px solid rebeccapurple;
+    margin: auto;
+    display: flex;
+    margin-bottom: 30px;
+}
+#review{
+    height: 30px;
+    width: 90%;
+    border: 0px solid rebeccapurple;
+    margin: auto;
+    display: flex;
+    margin-bottom: 30px;
+}
+#trans{
+    height: 30px;
+    width: 90%;
+    border: 0px solid rebeccapurple;
+    margin: auto;
+    display: flex;
+    margin-bottom: 30px;
+}
+#seller{
+    height: 30px;
+    width: 90%;
+    border: 0px solid rebeccapurple;
+    margin: auto;
+    display: flex;
+    margin-bottom: 30px;
+}
+#toppro{
+    height: 60px;
+    width: 100%;
+    border: 0px solid blueviolet;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+#top2pro{
+    height: 60px;
+    width: 100%;
+    border: 0px solid royalblue;
+    display: flex;
+    justify-content: space-around;
+    gap: 600px;
+}
+#expor > button{
+    margin-top: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+#expor > button:nth-child(2){
+    padding: 7px;
+    font-size: 20px;
+    margin-left: 10px;
+    background-color:lightseagreen;
+    color: white;
+    border: 0px;
+
+}
+#top2pro >h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #12284c;
+    font-weight: 550;
+}
+
+#grid{
+    height: fit-content;
+    width: 95%;
+    border: 0px solid red;
+    margin: auto;
+    margin-top: 20px;
+    background-color: whitesmoke;
+    padding: 5px;
+}
+#searchtab{
+    height: 50px;
+    width: 95%;
+    border: 0px solid blue;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 130px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+#search{
+    height: 30px;
+    width: 70%;
+    margin: auto;
+
+}
+#sort{
+    display: flex;
+}
+#sort select{
+    height: 30px;
+    margin: auto;
+    margin-right: 10px;
+    background-color: coral;
+}
+#appendto{
+    height: fit-content;
+    width: 95%;
+    border: 0px solid red;
+    margin: auto;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+   
+}
