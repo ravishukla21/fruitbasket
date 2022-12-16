@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+<script>
+    let PutRequest = () => {
+        // Sending PUT request with fetch API in javascript
+        fetch("http://localhost:3000/useradmin/2", {
+            headers: {
+                Accept: "application/json",
+                "Content-Type": "application/json"
+            },
+            method: "PUT",
+
+            // Sending only the fields that to be updated
+            // {
+            //     "user": "hello",
+            //     "pass": "shello",
+            //     "id": "7"
+            // }
+            body: JSON.stringify({
+                user: "hello@geeky.com",
+                pass: "Geeky",
+                id: 2
+            })
+        })
+            .then(function (response) {
+
+                // Console.log(response);
+                return response.json();
+            })
+        .then(function (data) {
+            console.log(data);
+        });
+    };
+
+   // PutRequest();
+
+</script>
+
+</html>

@@ -8,46 +8,6 @@
   ],
   "products": [
     {
-      "image_url": "https://bit.ly/3uHGEnN",
-      "brand": "Anouk",
-      "para": "Women Pink Self Design Kurta with Trousers & Dupatta",
-      "price": 791,
-      "offer": "76",
-      "id": "1",
-      "category": "women",
-      "flag": true
-    },
-    {
-      "image_url": "https://bit.ly/3uLGTyi",
-      "brand": "Anouk",
-      "para": "Women yellow Self Design Kurta with Trousers & Dupatta",
-      "price": 758,
-      "offer": "65",
-      "id": "2",
-      "category": "women",
-      "flag": true
-    },
-    {
-      "image_url": "https://bit.ly/3Dldqit",
-      "brand": "Anouk",
-      "para": "Green Ethnic Motifs Pure Cotton Printed Fit and Flare Dress",
-      "price": 749,
-      "offer": "65",
-      "id": "3",
-      "category": "women",
-      "flag": true
-    },
-    {
-      "image_url": "https://bit.ly/3iNMWwx",
-      "brand": "Chevron",
-      "para": "Black & Grey Chevron Geometric Printed Wrap Dress",
-      "price": 1199,
-      "offer": "65",
-      "id": "4",
-      "category": "women",
-      "flag": true
-    },
-    {
       "image_url": "https://bit.ly/3IQuE8v",
       "brand": "Anouk",
       "para": "Women Olive Green Ethnic Motifs Yoke Design Kurta with Palazzos & With Dupatta",
@@ -637,6 +597,24 @@
       "category": "women",
       "subcategory": "grooming",
       "flag": true
+    },
+    {
+      "image": {},
+      "brand": "Anouk",
+      "para": "Women Pink Self Design Kurta with Trousers & Dupatta",
+      "price": "791",
+      "offer": "76",
+      "id": "1",
+      "category": "Women"
+    },
+    {
+      "image_url": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/11359590/2020/2/26/68da9e40-e8b1-4710-8282-802c2c6550c11582709189210-US-Polo-Assn-Men-Tshirts-9481582709187568-1.jpg",
+      "brand": "shivam",
+      "para": "helloshivam",
+      "price": "500",
+      "offer": "10",
+      "id": "78",
+      "category": "men"
     }
   ],
   "useradmin": [
@@ -645,9 +623,19 @@
       "password": "bharti"
     },
     {
-      "user": "ravi",
-      "pass": "1234",
+      "user": "hello@geeky.com",
+      "pass": "Geeky",
       "id": "2"
+    },
+    {
+      "user": "ravi",
+      "pass": "shukla",
+      "id": "3"
+    },
+    {
+      "user": "hello",
+      "pass": "shello",
+      "id": "7"
     }
   ]
 }
