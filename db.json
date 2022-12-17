@@ -8,7 +8,46 @@
   ],
   "products": [
     {
-
+      "image_url": "https://bit.ly/3uHGEnN",
+      "brand": "Anouk",
+      "para": "Women Pink Self Design Kurta with Trousers & Dupatta",
+      "price": 791,
+      "offer": 76,
+      "id": "1",
+      "category": "women",
+      "flag": true
+    },
+    {
+      "image_url": "https://bit.ly/3uLGTyi",
+      "brand": "Anouk",
+      "para": "Women yellow Self Design Kurta with Trousers & Dupatta",
+      "price": 758,
+      "offer": 65,
+      "id": "2",
+      "category": "women",
+      "flag": true
+    },
+    {
+      "image_url": "https://bit.ly/3Dldqit",
+      "brand": "Anouk",
+      "para": "Green Ethnic Motifs Pure Cotton Printed Fit and Flare Dress",
+      "price": 749,
+      "offer": 64,
+      "id": "3",
+      "category": "women",
+      "flag": true
+    },
+    {
+      "image_url": "https://bit.ly/3iNMWwx",
+      "brand": "Chevron",
+      "para": "Black & Grey Chevron Geometric Printed Wrap Dress",
+      "price": 1199,
+      "offer": 63,
+      "id": "4",
+      "category": "women",
+      "flag": true
+    },
+    {
       "image_url": "https://bit.ly/3IQuE8v",
       "brand": "Anouk",
       "para": "Women Olive Green Ethnic Motifs Yoke Design Kurta with Palazzos & With Dupatta",
@@ -243,7 +282,7 @@
       "brand": "Roadster",
       "para": "Men Colourblocked Sneakers ",
       "price": 1799,
-      "offer": 20 ,
+      "offer": 20,
       "id": "28",
       "category": "men",
       "flag": true
@@ -253,7 +292,7 @@
       "brand": "Roadster",
       "para": "Men LEBRON 2.0 Walking Shoes ",
       "price": 1999,
-      "offer": 50 ,
+      "offer": 50,
       "id": "29",
       "category": "men",
       "flag": true
@@ -599,7 +638,6 @@
       "subcategory": "grooming",
       "flag": true
     }
-    
   ],
   "useradmin": [
     {
@@ -612,35 +650,51 @@
       "id": "2"
     }
   ],
-  "post":[
+  "post": [
     {
-      "id":"1",
-      "image_url":"https://cdn.modesens.com/umedia/1707018s?w=400"
+      "id": "1",
+      "image_url": "https://cdn.modesens.com/umedia/1707018s?w=400"
     },
     {
-      "id":"2",
-      "image_url":"https://cdn.modesens.com/umedia/1707030s?w=400"
+      "id": "2",
+      "image_url": "https://cdn.modesens.com/umedia/1707030s?w=400"
     },
     {
-      "id":"3",
-      "image_url":"https://cdn.modesens.com/umedia/1707011s?w=400"
+      "id": "3",
+      "image_url": "https://cdn.modesens.com/umedia/1707011s?w=400"
     },
     {
-      "id":"4",
-      "image_url":"https://cdn.modesens.com/umedia/1686127s?w=400"
+      "id": "4",
+      "image_url": "https://cdn.modesens.com/umedia/1686127s?w=400"
     },
     {
-      "id":"5",
-      "image_url":"https://cdn.modesens.com/umedia/1685597s?w=400"
+      "id": "5",
+      "image_url": "https://cdn.modesens.com/umedia/1685597s?w=400"
     },
     {
-
-    {
-      "id":"7",
-      "image_url":"https://cdn.modesens.com/umedia/1685542s?w=400"
+      "id": "6",
+      "image_url": "https://cdn.modesens.com/umedia/1685556s?w=400"
     },
     {
-
+      "id": "7",
+      "image_url": "https://cdn.modesens.com/umedia/1685542s?w=400"
+    },
+    {
+      "id": "8",
+      "image_url": "https://cdn.modesens.com/umedia/1684927s?w=400"
+    },
+    {
+      "id": "9",
+      "image_url": "https://cdn.modesens.com/umedia/1684387s?w=400"
+    },
+    {
+      "id": "10",
+      "image_url": "https://cdn.modesens.com/umedia/1683611s?w=400"
+    },
+    {
+      "id": "11",
+      "image_url": "https://cdn.modesens.com/umedia/1683621s?w=400"
     }
-  ]
+  ],
+  "cart": []
 }

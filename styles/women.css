@@ -186,7 +186,12 @@ body{
     background-color: black;
     color: white;
  }
- #lastBttom img{
+ #lastBttom >#l12 > img:nth-child(5){
     margin-top: 50px;
-  margin-left: 26%;
+  margin-left: 28%;
+ }
+ #last_pic{
+    border: 0px solid red;
+    margin-top: 50px;
+    margin-right: 37%;
  }
