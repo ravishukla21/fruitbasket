@@ -45,13 +45,19 @@ function Append(data){
        // console.log("123",el)
         let card=document.createElement("div");
         card.style.border="0px solid red";
-        card.style.padding="10px"
+        card.style.padding="10px";
+        card.style.boxShadow= "rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px";
+        card.style.borderRadius="30px";
+        
 
         let image=document.createElement("img");
         image.src=el.image_url;
         image.style.width="80%";
         image.style.height="330px";
-        image.style.marginLeft="10%"
+        image.style.marginLeft="10%";
+        image.style.borderRadius="30px";
+        image.style.paddingTop="20px";
+        
 
         let brand=document.createElement("h3");
         brand.innerText=el.brand;
@@ -107,16 +113,24 @@ function Append(data){
         addToCart.style.backgroundColor="white";
         addToCart.style.padding="10px";
         addToCart.style.border="0.5px solid";
+        addToCart.style.borderRadius="10px"
         addToCart.onmouseover=()=>{
             addToCart.style.backgroundColor="black";
             addToCart.style.border="0.5px solid white";
             addToCart.style.color="white";
+            addToCart.style.cursor="pointer"
         };
         addToCart.onmouseleave=()=>{
             addToCart.style.backgroundColor="white";
             addToCart.style.border="0.5px solid black";
             addToCart.style.color="black";
-        }
+        };
+
+        addToCart.addEventListener("click",function(){
+            
+            console.log("ele",el);
+            addProductToCart(el);
+        })
 
         
         price_div.append(off,finalPrice)
@@ -125,6 +139,28 @@ function Append(data){
        
     })
 };
+        // ADD PRODUCT TO CART PAGE;- 
+  async function addProductToCart(de){
+     
+     try {
+       // console.log("de",de);
+
+        let post_request =  fetch("http://localhost:3000/cart",{
+			method : "POST",
+			headers : {
+				"Content-Type": "application/json",
+               // Authorization: `Bearer ${sessionStorage.getItem("access_token")}`
+			},
+			body : JSON.stringify(de)
+		})
+        
+        
+    } catch (errr) {
+        alert(err);
+    }
+    
+
+}
 
 //SORTING FOR MALE AND WOMEN
 

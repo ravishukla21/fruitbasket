@@ -43,7 +43,7 @@ font-weight: 500;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: auto;
     padding: 10px;
-    gap: 10px;
+    gap: 20px;
 }
 #short1a{
     width: 95%;
