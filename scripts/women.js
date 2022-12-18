@@ -140,12 +140,16 @@ function newtosaleAppend(data){
             addToCart.style.backgroundColor="black";
             addToCart.style.border="0.5px solid white";
             addToCart.style.color="white";
-        };
+        }
         addToCart.onmouseleave=()=>{
             addToCart.style.backgroundColor="white";
             addToCart.style.border="0.5px solid black";
             addToCart.style.color="black";
         }
+        addToCart.addEventListener("click",function(){
+           // console.log("ele",el);
+            addProductToCart(el);
+        })
 
         
         price_div.append(off,finalPrice)
@@ -153,7 +157,30 @@ function newtosaleAppend(data){
         newToSale.append(card)
        }
     })
-}
+};
+
+        // ADD PRODUCT TO CART PAGE;- 
+        async function addProductToCart(de){
+     
+            try {
+               // console.log("de",de);
+        
+                let post_request =  fetch("http://localhost:3000/cart",{
+                    method : "POST",
+                    headers : {
+                        "Content-Type": "application/json",
+                       // Authorization: `Bearer ${sessionStorage.getItem("access_token")}`
+                    },
+                    body : JSON.stringify(de)
+                })
+                
+                
+            } catch (errr) {
+                alert(err);
+            }
+            
+        
+        }
 
 
 
@@ -276,6 +303,10 @@ function trndingMoreAppend(data){
             addToCart.style.border="0.5px solid black";
             addToCart.style.color="black";
         }
+        addToCart.addEventListener("click",()=>{
+            //console.log("hi hi");
+            addProductToCart(el)
+        })
 
         
         price_div.append(off,finalPrice)
@@ -394,6 +425,10 @@ function recentMoreAppend(data){
         addToCart.style.backgroundColor="white";
         addToCart.style.padding="10px";
         addToCart.style.border="0.5px solid";
+        addToCart.addEventListener("click",function(){
+            //console.log("added");
+            addProductToCart(el)
+        })
         addToCart.onmouseover=()=>{
             addToCart.style.backgroundColor="black";
             addToCart.style.border="0.5px solid white";
@@ -404,7 +439,6 @@ function recentMoreAppend(data){
             addToCart.style.border="0.5px solid black";
             addToCart.style.color="black";
         }
-
         
         price_div.append(off,finalPrice)
         card.append(image,brand,dis,price_div,addToCart,store);

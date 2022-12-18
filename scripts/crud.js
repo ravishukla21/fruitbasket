@@ -1,0 +1,240 @@
+
+let update_price = document.getElementById("update_price");
+update_price.addEventListener("click", () => {
+    let price = document.getElementById("price_patch").value;
+    let id = document.getElementById("id_patch").value;
+    fetch(`http://localhost:3000/products/${id}`, {
+        headers: {
+            Accept: "application/json",
+            "Content-Type": "application/json"
+        },
+        method: "PATCH",
+
+        // {
+        //   "image_url": "https://cdn.modesens.com/availability/54406627?w=400",
+        //   "brand": "STAUD",
+        //   "para": "White Ria Crochet Mini Cross Body Bag In Ivory",
+        //   "price": 5900,
+        //   "offer": "20",
+        //   "id": "61",
+        //   "category": "women",
+        //   "subcategory": "grooming",
+        //   "flag": true
+        // }
+        body: JSON.stringify({
+            // image_url,
+            // brand,
+            // para,
+            price,
+            // offer,
+            // category,
+            // flag
+
+        })
+    })
+        .then(function (response) {
+
+            // Console.log(response);
+            return response.json();
+        })
+        .then(function (data) {
+            console.log("chu",data)
+            return displaycard(data);
+        });
+
+})
+updateproducts12 = document.getElementById("update_products1212")
+updateproducts12.addEventListener("click", () => {
+
+    let image_url = document.getElementById("image1212").value;
+
+    let brand = document.getElementById("brand1212").value;
+    let para = document.getElementById("para1212").value;
+    let price = document.getElementById("price1212").value;
+    let offer = document.getElementById("offer1212").value;
+    let id = document.getElementById("id1212").value;
+    let flag = document.getElementById("flag").value;
+    let category = document.getElementById("category1212").value;
+
+    fetch(`http://localhost:3000/products/${id}`, {
+        headers: {
+            Accept: "application/json",
+            "Content-Type": "application/json"
+        },
+        method: "PUT",
+
+        // {
+        //   "image_url": "https://cdn.modesens.com/availability/54406627?w=400",
+        //   "brand": "STAUD",
+        //   "para": "White Ria Crochet Mini Cross Body Bag In Ivory",
+        //   "price": 5900,
+        //   "offer": "20",
+        //   "id": "61",
+        //   "category": "women",
+        //   "subcategory": "grooming",
+        //   "flag": true
+        // }
+        body: JSON.stringify({
+            image_url,
+            brand,
+            para,
+            price,
+            offer,
+            category,
+            flag
+
+        })
+    })
+        .then(function (response) {
+
+            // Console.log(response);
+            return response.json();
+        })
+        .then(function (data) {
+            return displaycard(data);
+        });
+
+})
+removeproducts = document.getElementById("remove_products12")
+removeproducts.addEventListener("click", () => {
+    let id = document.getElementById("id12").value;
+    remove(id)
+    function remove(id) {
+        fetch("http://localhost:3000/products" + "/" + id, {
+            method: 'DELETE'
+        }).then((data) => {
+            console.log('removed', data);
+        }).catch(err => {
+            console.error(err)
+        });
+    }
+})
+
+// <input id="image12" type="text" placeholder="image">
+// <input id="brand12" type="text" placeholder="brand">
+// <input id="para12" type="text" placeholder="para">
+// <input id="price12" type="text" placeholder="price">
+// <input id="offer12" type="text" placeholder="offer">
+// <input id="id12" type="number" placeholder="id">
+// <input id="category12" type="text" placeholder="category">
+// <button id="remove_products12">remove_products</button>
+// <button id="add_products12">add_products</button>
+// {
+//   "image_url": "https://cdn.modesens.com/availability/54406627?w=400",
+//   "brand": "STAUD",
+//   "para": "White Ria Crochet Mini Cross Body Bag In Ivory",
+//   "price": 5900,
+//   "offer": "20",
+//   "id": "61",
+//   "category": "women",
+//   "subcategory": "grooming",
+//   "flag": true
+// }
+add_products = document.getElementById("add_products12")
+
+add_products.addEventListener("click", () => {
+
+    let image_url = document.getElementById("image12-a").value;
+
+    let brand = document.getElementById("brand12").value;
+    let para = document.getElementById("para12").value;
+    let price = document.getElementById("price12").value;
+    let offer = document.getElementById("offer12").value;
+    let id = document.getElementById("id12").value;
+    let category = document.getElementById("category12").value;
+    let obj12 = {
+        image_url, brand, para, price, offer, id, category
+
+    }
+    console.log("hello", obj12)
+
+    fetch("http://localhost:3000/products", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify(obj12)
+    }).then(res => res.json()).then(data => displaycard(data))
+});
+
+
+
+
+
+
+
+
+admin.addEventListener("click", () => {
+    let id = document.getElementById("id1").value;
+    remove(id)
+    function remove(id) {
+        fetch("http://localhost:3000/useradmin" + "/" + id, {
+            method: 'DELETE'
+        }).then((data) => {
+            console.log('removed', data);
+        }).catch(err => {
+            console.error(err)
+        });
+    }
+})
+add.addEventListener("click", () => {
+
+    let user = document.getElementById("user").value;
+    let pass = document.getElementById("pass").value;
+    let id = document.getElementById("id1").value;
+    obj = {
+        user, pass, id
+
+    }
+    console.log("hello", obj)
+
+    fetch("http://localhost:3000/useradmin", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify(obj)
+    }).then(res => res.json()).then(data => console.log(data))
+});
+
+fetch("http://localhost:3000/products").then(res => res.json()).then(data => {
+    console.log("hi", data);
+    displaycard(data)
+})
+
+function displaycard(data) {
+    let container = document.getElementById("container");
+    container.innerHTML = "";
+    console.log(data)
+    data.forEach(element => {
+        let div = document.createElement("div");
+        div.setAttribute("id", "sub-div");
+        let image_product = document.createElement("img");
+        image_product.setAttribute("id", "image12")
+        image_product.setAttribute("src", element.image_url);
+        let brand = document.createElement("h4");
+        brand.setAttribute("id", "brand12")
+        brand.innerHTML = ` <span id="redcolor">Brand:</span>${element.brand}`;
+        let price = document.createElement("h4");
+        price.setAttribute("id", "price12")
+        price.innerHTML = `<span id="redcolor">Price:</span>${element.price}`;
+        let id = document.createElement("h4");
+        id.setAttribute("id", "id12")
+        id.innerHTML = `<span id="redcolor">Id:</span>${element.id}`;
+        //let id = element.id
+        ///<span id="redcolor">Brand:</span>
+        let category = document.createElement("h4");
+        category.innerHTML = `<span id="redcolor">Category:</span>${element.category}`;
+        category.setAttribute("id", "category12")
+        let description = document.createElement("h4");
+        description.innerHTML = `<span id="redcolor">Description:</span>${element.para}`
+        description.setAttribute("id", "description12")
+
+        // let category = element.category
+        //console.log(image_url, brand, price, id, category)
+        div.append(image_product, brand, price, id, category, description);
+        document.querySelector("#container").append(div);
+        //hello(image_url, brand, price, id, category)
+    });
+}
+
