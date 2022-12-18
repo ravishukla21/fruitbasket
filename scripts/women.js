@@ -6,6 +6,10 @@ let newToSale=document.getElementById("newToSale");
 let trending_More=document.getElementById("trending_More");
 let recent_More=document.getElementById("recent_More");
 let posts_More=document.getElementById("posts_More");
+let bag=document.getElementById("bag");
+
+
+
 
 function carousel(){
     let images=[ "https://cdn.modesens.com/banner/20221212-modesens-MONCLER-1140x400-F_1670816985.jpg",
@@ -542,3 +546,26 @@ function subbup2(){
     
     posts(eount)
 };
+
+async function bag_count(){
+    try {
+        let res=await fetch(`http://localhost:3000/cart`);
+        let data=await res.json();
+        loop(data)
+    } catch (err) {
+        console.log(err)
+    }
+}
+bag_count();
+
+function loop(data){
+    //bag.innerHTML=null;
+
+    let temp=0;
+    data.forEach( ()=>{
+        temp++;
+    });
+    console.log("temp",temp);
+    bag.innerText=temp;
+
+}

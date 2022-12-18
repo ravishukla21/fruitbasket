@@ -3,6 +3,7 @@ let sub=document.getElementById("sub");
 let top2=document.getElementById("top2");
 let code=document.getElementById("code");
 let lucky=document.getElementById("lucky");
+let final_checkout=document.getElementById("final_checkout");
 
 var xyz=0;
 
@@ -76,13 +77,16 @@ console.log("discount mil",xyz);
         
         count=count+Math.ceil(el.price-(el.price)*el.offer/100);
         count=count-Math.ceil((xyz/100)*count)
+        let amount=[];
+        amount.push(count);
+        localStorage.setItem("amount", JSON.stringify(amount)); 
     })
     //console.log("final_p",count,item);
     top2.append(`Your Cart (${item} Items)`)
     sub.append(`Total Price:  ₹ ${count}`)
 }
 
-//console.log("var",count);
+// console.log("var",pay);
 function append(data){
     pro_list.innerHTML=null 
    
@@ -133,9 +137,14 @@ async function DeleteBtn(ID){
             method : "DELETE",
            
         });
-        
+        console.log("ser",res)
     } catch (er) {
         alert(er);
     }
 }
 
+// CHECKOUT FINAL
+final_checkout.onclick=()=>{
+    //console.log("gooo");
+    window.location.href="./payment.html"
+}

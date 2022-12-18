@@ -1,0 +1,232 @@
+
+
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+#payForm{
+    height: fit-content;
+    width: 45%;
+    border: 0px solid red;
+    margin: auto;
+    padding: 20px;
+    background-color: #F5F5F5;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+#payForm > div{
+    /* font-size: 30px; */
+    /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    /* font-weight: 350; */
+    /* margin-left: px; */
+    border: 0px solid red;
+    background-color:cornsilk;
+    padding: 10px;
+}
+#payForm > div > h2{
+    font-size: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 350;
+    margin-left: px;
+    border: 0px solid red;
+    background-color:cornsilk;
+    padding: 0px;
+}
+#payForm > div > p{
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    color: #121212;
+    /* margin-left: px; */
+    border: 0px solid rgb(87, 9, 9);
+    background-color:cornsilk;
+    
+}
+#tickCard{
+    height: 40px;
+    width: 95%;
+    border: 0px solid blue;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    background-color: #FDF5E6;
+    padding: 5px;
+    
+}
+#tickCard img{
+    width: 60px;
+}
+#tickCard p{
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    margin-top: 10px;
+}
+/* FOR TICK CHECKBOX */
+#cardOpt{
+    display: flex;
+    gap: 5px;
+}
+#cardOpt > img{
+    width: 40px;
+}
+#cashOpt{
+    display: flex;
+}
+#cashOpt >img{
+    width: 60px;
+    height: 30px;
+    margin: auto;
+}
+#cheqOpt{
+    display: flex;
+}
+#cheqOpt > img{
+    height: 30px;
+    margin: auto;
+}
+#other{
+    display: flex;
+}
+#nameCard{
+    width: 93.8%;
+    height: 40px;
+    font-size: 20px;
+    margin-left: 11px;
+    margin-top: 20px;
+    padding: 5px;
+    margin-bottom: 20px;
+
+}
+#cardDetl{
+    height: 50px;
+    width: 95%;
+    border: 0px solid red;
+    display: flex;
+    margin: auto;
+    margin-bottom: 20px;
+}
+#cardDetl > input:nth-child(1){
+    width: 230px;
+    font-size: 20px;
+}
+#cardDetl > input:nth-child(3){
+    width: 130px;
+    font-size: 17px;
+}
+#cardDetl > img{
+    width: 150px;
+}
+#expire{
+    height: 50px;
+    width: 95%;
+    border: 0px solid brown;
+    margin: auto;
+    display: flex;
+    gap: 10px;
+}
+#expire > p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+
+}
+#expire > input:nth-child(2){
+    width: 120px;
+    font-size: 20px;
+}
+#expire > input:nth-child(3){
+    width: 120px;
+    font-size: 20px;
+}
+#expire > input:nth-child(4){
+    width: 180px;
+    font-size: 18px;
+}
+#postal{
+    display: flex;
+    margin-left: 50%;
+    margin-top: -18px;
+}
+#postal > p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+#Add{
+    color: rgb(50, 70, 156);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    margin: auto;
+    margin-left: -15px;
+    border: 0px solid red;
+    width: 550px;
+}
+/*
+#payBtn{
+    width: 40%;
+
+    margin: auto;
+    margin-bottom: 100px;
+     
+}
+#payBtn > img{
+    width: 40px;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 5px;  
+}  
+ #payBtn > button:nth-child(2){
+    width: 70%;
+    font-size: 28px;
+    height: 50px;
+    background-color:rgb(95, 156, 45);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    
+} 
+ #payBtn > button:nth-child(3){
+    width: 29%;
+    font-size: 28px;
+    height: 50px;
+    background-color:#A52A2A;
+    border: none;
+    border-radius: 5px;
+    color: white;
+} */
+#lastCheck{
+    display: flex;
+    gap: 10px;
+}
+#lstchkTik{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+}
+
+#payBtn{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    border: 0px solid blue;
+}
+#payBtn > button{
+    width: 45%;
+    height: 50px;
+    outline: none;
+    border: none;
+    color: #ffff;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+#payBtn button:nth-child(1){
+    background-color: green;
+}
+
+#payBtn button:nth-child(2){
+    background-color: red;
+}
+
+
