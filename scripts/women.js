@@ -1,4 +1,5 @@
 
+
 let carousel_div=document.getElementById("carousel");
 let carou=document.getElementById("carou");
 let newToSale=document.getElementById("newToSale");
