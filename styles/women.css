@@ -1,6 +1,6 @@
-.body{
-    padding: 0px;
-    margin: 0px;
+body{
+    padding: 0%;
+    margin: 0%;
     box-sizing: border-box;
 }
 #carousel{
@@ -136,4 +136,62 @@
     border: 0px solid green;
     display: flex;
     justify-content: space-between;
+ }
+ #recent_More{
+    width: 90%;
+    margin: auto;
+    /* gap: 30px; */
+    border: 0px solid green;
+    display: flex;
+    justify-content: space-between;
+ }
+  #posts_More{
+    width: 90%;
+    margin: auto;
+    gap: 20px;
+    border: 0px solid green;
+    display: flex;
+    justify-content: space-between;
+ }
+ #lastBttom{
+    width: 100%;
+    height: fit-content;
+    border: 0px solid red;
+    background-color: #F8F7F6;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+ }
+ #lastBttom > div{
+    display: inline-block;
+ }
+ #lastBttom h1{
+    color: #1c1c1c;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    font-weight: 400;
+ }
+ #lastBttom p{
+    color: #1c1c1c;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    font-weight: 500;
+ }
+ #lastBttom button{
+    background-color: white;
+    padding: 10px;
+    margin-left: 37%;
+ }
+ #lastBttom button:hover{
+    background-color: black;
+    color: white;
+ }
+ #lastBttom >#l12 > img:nth-child(5){
+    margin-top: 50px;
+  margin-left: 28%;
+ }
+ #last_pic{
+    border: 0px solid red;
+    margin-top: 50px;
+    margin-right: 37%;
  }
