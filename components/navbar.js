@@ -4,9 +4,13 @@ function navbar(){
     
     <div>
     <ul>
+    <a href="index.html">
         <li>
+            
             <img id="navimg" src="./Nav Images/logo.jpg" alt="">
         </li>
+    </a>
+        
         <li>
             
         
@@ -66,9 +70,11 @@ function navbar(){
         <li><a href="#">WHY Fashion Gallery</a></li>
         <li><a href="#">SALE</a></li>
         <li><a href="#">GIFT GUIDE</a></li>
-        <li><a href="#"><i class="fa-regular fa-bell"></i></a></li>
-        <li><a href="./cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
-        <li><a href="./signup.html"><i class="fa-sharp fa-solid fa-user"></i></a>
+        <li><a id="bell" href="#"><i class="fa-regular fa-bell"></i></a></li>
+        
+        <li><a id="bag" href="../cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+        
+        <li><a id="user" href="./signup.html"><i class="fa-sharp fa-solid fa-user"></i></a>
         <ul>
             <li><a href=""></a>My Likes</li>
             <li><a href=""></a>My Alerts</li>
@@ -84,8 +90,7 @@ function navbar(){
         </ul>
         </li>
         
-        <li id="search-input"><a href="#"><i class="fa-solid fa-magnifying-glass"></i>
-            <input id="searchbtn" type="text" placeholder="search"></a></li>
+        <li id="search-input"><a href="#">deepanshu</a></li>
         
     </ul>
     </div>
