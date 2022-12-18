@@ -8,30 +8,10 @@
   ],
   "products": [
     {
-      "image_url": "https://bit.ly/3IQuE8v",
-      "brand": "Anouk",
-      "para": "Women Olive Green Ethnic Motifs Yoke Design Kurta with Palazzos & With Dupatta",
-      "price": 879,
-      "offer": "25",
-      "id": "5",
-      "category": "women",
-      "flag": true
-    },
-    {
-      "image_url": "https://bit.ly/3IRLbJa",
-      "brand": "MFB",
-      "para": "Women Maroon Analogue Watch MFB-PN-SNT-C30-1",
-      "price": 674,
-      "offer": "10",
-      "id": "6",
-      "category": "women",
-      "flag": true
-    },
-    {
       "image_url": "https://bit.ly/3wYoUqM",
       "brand": "Anouk",
       "para": "Women Black Pure Cotton Ethnic Motifs Printed Kurta with Palazzos & Dupatta",
-      "price": 1035,
+      "price": "9000",
       "offer": "30",
       "id": "7",
       "category": "women",
@@ -41,7 +21,7 @@
       "image_url": "https://bit.ly/3wXtNAx",
       "brand": "Nayo",
       "para": "Women Red Floral Printed Kurta With Trouser & Dupatta",
-      "price": 1479,
+      "price": "80000",
       "offer": "13",
       "id": "8",
       "category": "women",
@@ -615,6 +595,34 @@
       "offer": "10",
       "id": "78",
       "category": "men"
+    },
+    {
+      "image_url": "https://bit.ly/3IRLbJa",
+      "brand": "watch ",
+      "para": "watchesbest",
+      "price": "400",
+      "offer": "20",
+      "id": "99",
+      "category": "men"
+    },
+    {
+      "image_url": "https://bit.ly/3wXtNAx",
+      "brand": "nike",
+      "para": "this is made from woollen",
+      "price": "900",
+      "offer": "50",
+      "category": "women",
+      "flag": "true",
+      "id": "100"
+    },
+    {
+      "image_url": "https://bit.ly/3wXtNAx",
+      "brand": "nykka",
+      "para": "nykaa best unifrom",
+      "price": "8000",
+      "offer": "20",
+      "id": "630",
+      "category": "women"
     }
   ],
   "useradmin": [
