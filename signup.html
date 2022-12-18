@@ -3,14 +3,14 @@
 
 <head>
     <title>Sign Up</title>
-    <link rel="stylesheet" href="login.css" />
+    <link rel="stylesheet" href="styles/login.css" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet" />
 </head>
 
 <body>
     <div id="main_body">
         <div class="admin">
-            <h1>only for developers</h1>
+            <h1 class="dev">only for developers</h1>
             <form>
                 <input id="admin_username" type="text" placeholder="type your username">
                 <input id="admin_email" type="text" placeholder="type your email">
@@ -75,12 +75,12 @@
             alert("you have not access for the admin page please contact admin")
         } else {
             //  alert("Account alredy exist please login")
-            window.location.href = "admin.html";
+            window.location.href = "ad.html";
         }
         //console.log(admin_arr);
 
         let my_arr = [{
-            admin_name: "ravi@456",
+            admin_name: "ravi",
             admin_email: "ravi21.434",
             admin_pass: 1234
 

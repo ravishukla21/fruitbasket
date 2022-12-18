@@ -4,6 +4,10 @@ body {
   font-family: "Roboto", sans-serif;
 
 }
+.dev{
+  font-weight: bolder;
+  color: aliceblue;
+}
 
 .signup-box {
   width: 360px;
@@ -59,6 +63,7 @@ input[type="button"] {
   background-color: #49c1a2;
   color: rgb(163, 44, 44);
   font-size: 18px;
+  transition: all 300ms ease;
 }
 
 input[type="button"]:hover {
@@ -87,7 +92,7 @@ p {
 }
 
 body {
-  background-image: url("image/background.jpg");
+  background-image: url("/image/background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -103,13 +108,15 @@ body {
   text-align: center;
   padding: 20px 20px;
   border-radius: 30px;
-  clip-path: circle(12.8% at 100% 0);
+  clip-path: circle(10.8% at 100% 0);
+  transition: all 2500ms ease;
 
 
 }
 
 .admin:hover {
   clip-path: circle(141.4% at 100% 0);
+ 
 }
 
 .admin form input {

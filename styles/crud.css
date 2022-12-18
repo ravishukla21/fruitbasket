@@ -1,0 +1,113 @@
+
+
+#sub-div{
+    border:2px solid gold;
+    display:flex;
+    margin:auto;
+}
+#sub-div>div{
+    display:flex;
+}
+
+#description12{
+    margin-left:20px;
+}
+#redcolor{
+    color: red;
+}
+
+#butt{
+    height:20%;
+    width:7%;
+    margin-top:20px;
+    border-radius: 20%;
+    margin-left:20px;
+}
+#butt:hover{
+    cursor: pointer;
+    background-color: aqua;
+   
+}
+#butt12{
+    height:40%;
+    width:7%;
+    margin-top:20px;
+    border-radius: 20%;
+    margin-left:20px;
+
+}
+#butt12:hover{
+    cursor: pointer;
+    background-color: aqua;
+   
+}
+#brand12{
+    margin-left:20px;
+}
+#price12{
+    margin-left: 20px;
+}
+#id12{
+    margin-left: 20px;
+}
+#category12{
+    margin-left:20px;
+}
+.products{
+    display:grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: auto;
+    /* border:2px solid green; */
+    /* margin:auto; */
+    justify-content: space-between;
+    margin-bottom:20px;
+
+    /* display: block; */
+}
+.products>div{
+    /* border:5px solid yellow; */
+    display: block;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding:15px 20px;
+    border-radius: 30px;
+}
+.products>div:hover{
+    background-color: aqua;
+    cursor: pointer;
+}
+
+.create input,.create button{
+    width:150px;
+    height:20px;
+    margin:auto;
+    margin-left:20px;
+
+
+}
+#image12{
+    height:10%;
+    width:12%;
+}
+.topsection{
+    margin:auto;
+    text-align: center;
+}
+.users{
+    display:grid;
+    grid-template-columns: auto;
+    width:30%;
+    /* border:2px solid green; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding:20px 25px;
+    border-radius: 30px;
+    margin-bottom:20px;
+
+}
+.users h3{
+    text-align: center;
+}
+.users:hover{
+    background-color: aqua;
+    cursor: pointer;
+}
+
