@@ -8,16 +8,6 @@
   ],
   "products": [
     {
-      "image_url": "https://bit.ly/3uHGEnN",
-      "brand": "Anouk",
-      "para": "Women Pink Self Design Kurta with Trousers & Dupatta",
-      "price": 791,
-      "offer": 76,
-      "id": "1",
-      "category": "women",
-      "flag": true
-    },
-    {
       "image_url": "https://bit.ly/3uLGTyi",
       "brand": "Anouk",
       "para": "Women yellow Self Design Kurta with Trousers & Dupatta",
@@ -637,6 +627,15 @@
       "category": "men",
       "subcategory": "grooming",
       "flag": true
+    },
+    {
+      "image_url": "https://bit.ly/3iNMWwx",
+      "brand": "Apna atma nerbhar bharat",
+      "para": "jai modi",
+      "price": "1500",
+      "offer": "20",
+      "id": "1",
+      "category": "women"
     }
   ],
   "useradmin": [
@@ -696,5 +695,57 @@
       "image_url": "https://cdn.modesens.com/umedia/1683621s?w=400"
     }
   ],
-  "cart": []
+  "cart": [
+    {
+      "image_url": "https://cdn.modesens.com/product/6675565_128?w=400 ",
+      "brand": "LA MER",
+      "para": "The Lifting Eye Serum, 15ml - One Size In N,a",
+      "price": 300,
+      "offer": 25,
+      "id": "43",
+      "category": "women",
+      "subcategory": "grooming",
+      "flag": true
+    },
+    {
+      "image_url": "https://bit.ly/3IZknGX",
+      "brand": "Juniper",
+      "para": "Women Black & Gold-Toned Printed Flared Palazzos",
+      "price": 883,
+      "offer": 43,
+      "id": "12",
+      "category": "women",
+      "flag": true
+    },
+    {
+      "image_url": "https://bit.ly/3IRLbJa",
+      "brand": "MFB",
+      "para": "Women Maroon Analogue Watch MFB-PN-SNT-C30-1",
+      "price": 674,
+      "offer": 10,
+      "id": "6",
+      "category": "women",
+      "flag": true
+    },
+    {
+      "image_url": "https://bit.ly/3iNMWwx",
+      "brand": "Apna atma nerbhar bharat",
+      "para": "jai modi",
+      "price": "1500",
+      "offer": "20",
+      "id": "1",
+      "category": "women"
+    },
+    {
+      "image_url": "https://cdn.modesens.com/product/11102878_68?w=400 ",
+      "brand": "KIEHL'S SINCE 1851",
+      "para": " Kiehl's Rare Earth Deep Pore Daily Cleanser, Size: 150ml In N,a",
+      "price": 240,
+      "offer": 15,
+      "id": "44",
+      "category": "women",
+      "subcategory": "grooming",
+      "flag": true
+    }
+  ]
 }

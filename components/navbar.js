@@ -10,7 +10,7 @@ function navbar(){
         <li>
             
         
-            <a href="#">WOMEN</a>
+            <a href="./women.html">WOMEN</a>
         <ul>
             <li><a href="">SHOP ALL</a></li>
             <li><a href="">CLOTHING</a></li>
@@ -22,7 +22,7 @@ function navbar(){
             <li><a href="">OCCASION</a></li>
         </ul>
         </li>
-        <li><a href="#">MEN</a>
+        <li><a href="./men.html">MEN</a>
             <ul>
                 <li><a href="">SHOP ALL</a></li>
                 <li><a href="">CLOTHING</a></li>
@@ -34,7 +34,7 @@ function navbar(){
                 <li><a href="">OCCASION</a></li>
             </ul>
         </li>
-        <li><a href="#">BEAUTY</a>
+        <li><a href="./beauty.html">BEAUTY</a>
         <ul>
             <li><a href="">SHOP ALL</a></li>
             <li><a href="">WOMEN'S BEAUTY</a></li>
@@ -53,7 +53,7 @@ function navbar(){
     
         </ul>
         </li>
-        <li><a href="#">HOME</a></li>
+        <li><a href="./index.html">HOME</a></li>
         <li><a href="#">DESIGNERS</a></li>
         <li><a href="#">COMMUNITY</a>
         <ul>
@@ -67,8 +67,8 @@ function navbar(){
         <li><a href="#">SALE</a></li>
         <li><a href="#">GIFT GUIDE</a></li>
         <li><a href="#"><i class="fa-regular fa-bell"></i></a></li>
-        <li><a href="#"><i class="fa-solid fa-bag-shopping"></i></a></li>
-        <li><a href=""><i class="fa-sharp fa-solid fa-user"></i></a>
+        <li><a href="./cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+        <li><a href="./signup.html"><i class="fa-sharp fa-solid fa-user"></i></a>
         <ul>
             <li><a href=""></a>My Likes</li>
             <li><a href=""></a>My Alerts</li>
