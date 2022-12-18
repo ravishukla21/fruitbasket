@@ -438,7 +438,6 @@ function recentMoreAppend(data){
             addToCart.style.border="0.5px solid black";
             addToCart.style.color="black";
         }
-
         
         price_div.append(off,finalPrice)
         card.append(image,brand,dis,price_div,addToCart,store);
