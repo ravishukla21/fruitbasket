@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>crud-Document</title>
+    <link rel="stylesheet" href="styles/crud.css">
+</head>
+
+
+<body>
+
+    <div class="topsection"><h1>CRUD SECTION</h1></div>
+    <a  style="border:none;color:aqua;font-weight:bolder;font-size:larger"  href="ad.html">BACK</a>
+
+    <h3>USERS-SECTION</h3>
+    <!-- <form id="admin_1"> -->
+
+    <div class="users">
+        <h3>DELETE && POSTUSERS</h3>
+        <br>
+        <input id="user" type="text" placeholder="username">
+        <input id="pass" type="text" placeholder="password">
+        <input id="id1" type="number" placeholder="id1">
+        <button id="admin">remove</button>
+        <button id="add">add</button>
+
+    </div>
+    <button onClick="window.location.reload();">Refresh Page</button>
+
+
+
+    <!-- </form> -->
+    <h3>PRODUCTS-SECTION</h3>
+
+    <div class="products">
+        <div class="create">
+            <h3></h3>
+            <h3>CREATE AND DELETE OPERATIONS</h3>
+            <input id="image12-a" type="text" placeholder="image">
+            <br>
+            <input id="brand12" type="text" placeholder="brand">
+            <input id="para12" type="text" placeholder="para">
+            <input id="price12" type="text" placeholder="price">
+            <input id="offer12" type="text" placeholder="offer">
+            <input id="id12" type="text" placeholder="id">
+            <input id="category12" type="text" placeholder="category">
+            <button id="remove_products12">remove_Products</button>
+            <br>
+            <button id="add_products12">add_Products</button>
+        </div>
+        <div class="update-put">
+             <h3>UPDATE OPERATION(PUT)</h3>
+            <input id="image1212" type="text" placeholder="image">
+            <input id="brand1212" type="text" placeholder="brand">
+            <input id="para1212" type="text" placeholder="para">
+            <input id="price1212" type="text" placeholder="price">
+            <input id="offer1212" type="text" placeholder="offer">
+            <input id="id1212" type="text" placeholder="id">
+            <input id="category1212" type="text" placeholder="category">
+            <input id="flag" type="text" placeholder="flag">
+            <button id="update_products1212">update_Products</button></div>
+        <div class="update-patch">
+            <h3>UPDATE OPERATION(PATCH-PRICE)</h3>
+            <input id="price_patch" type="text" placeholder="price">
+            <input id="id_patch" type="text" placeholder="id">
+            <button id="update_price">update_Price</button>
+           
+        </div>
+    </div>
+    <div id="container"></div>
+    <script src="scripts/crud.js"></script>
+
+</body>
+
+
+
+</html>
