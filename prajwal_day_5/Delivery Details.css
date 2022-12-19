@@ -1,0 +1,49 @@
+#details{
+    margin-left: 80%;
+    
+    margin-left: 70%;
+    background-color: rgb(240, 236, 236);
+    padding: 15px;
+    margin-right: 30px;
+}
+#top{
+    margin-top: 5%;
+    /* border: 1px solid gray; */
+    margin-left: 10%;
+   
+    
+}
+.bag-total{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: -38%;
+    
+}
+.Bag-Discount{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: -34%;
+    color: gray;
+    
+}
+.Delivery-Fee{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: -36%;
+    color: gray;
+}
+.Order-total{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: -36%;
+}
+.btn{
+padding: 5% 25% 5% 25%;
+
+
+}
+.Change-Address{
+    margin-left: 10%;
+    color: #176c93;
+    
+}
