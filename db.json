@@ -11,7 +11,7 @@
       "image_url": "https://bit.ly/3uHGEnN",
       "brand": "Anouk",
       "para": "Women Pink Self Design Kurta with Trousers & Dupatta",
-      "price": 791,
+      "price": "500",
       "offer": 76,
       "id": "1",
       "category": "women",
@@ -637,6 +637,15 @@
       "category": "men",
       "subcategory": "grooming",
       "flag": true
+    },
+    {
+      "image_url": "https://bit.ly/3uHGEnN",
+      "brand": "hello",
+      "para": "hello",
+      "price": "89745",
+      "offer": "20",
+      "id": "985",
+      "category": "women"
     }
   ],
   "useradmin": [
@@ -698,6 +707,7 @@
   ],
   "cart": [
     {
+
       "image_url": "https://bit.ly/3uLGTyi",
       "brand": "Anouk",
       "para": "Women yellow Self Design Kurta with Trousers & Dupatta",
@@ -708,12 +718,7 @@
       "flag": true
     },
     {
-      "image_url": "https://bit.ly/3iNMWwx",
-      "brand": "Chevron",
-      "para": "Black & Grey Chevron Geometric Printed Wrap Dress",
-      "price": 1199,
-      "offer": 63,
-      "id": "4",
+
       "category": "women",
       "flag": true
     }
