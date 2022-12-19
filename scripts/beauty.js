@@ -92,7 +92,7 @@ function Append(data){
         off.style.fontWeight="500";
 
         let finalPrice=document.createElement("p");
-        finalPrice.innerText="-"+"₹"+Math.ceil(el.price-(el.price)*el.offer/100);
+        finalPrice.innerText=" "+"₹"+Math.ceil(el.price-(el.price)*el.offer/100);
         finalPrice.style.fontSize="24px";
         finalPrice.style.marginTop="13px";
         finalPrice.style.marginLeft="5px"
