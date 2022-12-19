@@ -11,7 +11,7 @@
       "image_url": "https://bit.ly/3uHGEnN",
       "brand": "Anouk",
       "para": "Women Pink Self Design Kurta with Trousers & Dupatta",
-      "price": "1500",
+
       "offer": 76,
       "id": "1",
       "category": "women",
@@ -637,6 +637,15 @@
       "category": "men",
       "subcategory": "grooming",
       "flag": true
+    },
+    {
+      "image_url": "https://bit.ly/3uHGEnN",
+      "brand": "hello",
+      "para": "hello",
+      "price": "89745",
+      "offer": "20",
+      "id": "985",
+      "category": "women"
     }
   ],
   "useradmin": [
@@ -696,5 +705,5 @@
       "image_url": "https://cdn.modesens.com/umedia/1683621s?w=400"
     }
   ],
-  "cart": []
+
 }
