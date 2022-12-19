@@ -17,12 +17,14 @@ left: 0;
 
 }
 #bag{
-    height: 10px;
-    width: 10px;
-    border: 1px solid blue;
-    background-color: red;
-    margin-top: -20px;
-    margin-left: -30px;
+    height: 15px;
+    width: 15px;
+    border: 0px solid blue;
+    background-color: blue;
+    margin-top: -10px;
+    margin-left: -10px;
+    color: white;
+    border-radius: 50%;
 }
 #spacing{
     margin-top: 75px;
