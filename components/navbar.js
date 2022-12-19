@@ -1,5 +1,5 @@
-function navbar(){
 
+function navbar(){
     return `
     
     <div>
@@ -90,7 +90,7 @@ function navbar(){
         </ul>
         </li>
         
-        <li id="search-input"><a href="#">deepanshu</a></li>
+        <li id="input"><a href="#"> ${"Welcome"+":"+"😇"}</a></li>
         
     </ul>
     </div>

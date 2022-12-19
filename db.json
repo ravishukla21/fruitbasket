@@ -11,7 +11,7 @@
       "image_url": "https://bit.ly/3uHGEnN",
       "brand": "Anouk",
       "para": "Women Pink Self Design Kurta with Trousers & Dupatta",
-      "price": 791,
+      "price": "500",
       "offer": 76,
       "id": "1",
       "category": "women",
@@ -637,6 +637,15 @@
       "category": "men",
       "subcategory": "grooming",
       "flag": true
+    },
+    {
+      "image_url": "https://bit.ly/3uHGEnN",
+      "brand": "hello",
+      "para": "hello",
+      "price": "89745",
+      "offer": "20",
+      "id": "985",
+      "category": "women"
     }
   ],
   "useradmin": [
@@ -696,5 +705,36 @@
       "image_url": "https://cdn.modesens.com/umedia/1683621s?w=400"
     }
   ],
-  "cart": []
+  "cart": [
+    {
+      "image_url": "https://bit.ly/3uHGEnN",
+      "brand": "Anouk",
+      "para": "Women Pink Self Design Kurta with Trousers & Dupatta",
+      "price": 791,
+      "offer": 76,
+      "id": "1",
+      "category": "women",
+      "flag": true
+    },
+    {
+      "image_url": "https://bit.ly/3uLGTyi",
+      "brand": "Anouk",
+      "para": "Women yellow Self Design Kurta with Trousers & Dupatta",
+      "price": 758,
+      "offer": 65,
+      "id": "2",
+      "category": "women",
+      "flag": true
+    },
+    {
+      "image_url": "https://bit.ly/3Dldqit",
+      "brand": "Anouk",
+      "para": "Green Ethnic Motifs Pure Cotton Printed Fit and Flare Dress",
+      "price": 749,
+      "offer": 64,
+      "id": "3",
+      "category": "women",
+      "flag": true
+    }
+  ]
 }
