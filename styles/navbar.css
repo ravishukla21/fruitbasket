@@ -84,3 +84,7 @@ a{
     margin-top: -1px;
     
 }
+li {
+    display: inline-block;
+    margin-right: -1px;
+  }
