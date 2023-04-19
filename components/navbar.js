@@ -75,19 +75,7 @@ function navbar(){
         <li><a href="./cart.html"><i class="fa-solid fa-bag-shopping"><div id="bag">1</div></i></a></li>
         
         <li><a id="user" href="./signup.html"><i class="fa-sharp fa-solid fa-user"></i></a>
-        <ul>
-            <li><a href=""></a>My Likes</li>
-            <li><a href=""></a>My Alerts</li>
-            <li><a href=""></a>My Recently Viewed</li>
-            <li><a href=""></a>My Closet</li>
-            <li><a href=""></a>My Orders</li>
-            <li><a href=""></a>My Save Searches</li>
-            <li><a href=""></a>My Loyalty</li>
-            <li><a href=""></a>My Messages</li>
-            <li><a href=""></a>Invite Friends</li>
-            <li><a href=""></a>Settings</li>
-            <li><a href=""></a>Signout</li>
-        </ul>
+        
         </li>
         
         <li id="input"><a href="#"> ${"Welcome"+":"+"😇"}</a></li>
